@@ -1,17 +1,17 @@
-import MobileBanner from './assets/images/background-pattern-mobile.svg';
-import DesktopBanner from './assets/images/background-pattern-desktop.svg';
+
 import './App.css';
+import Accordion from './Acordion/accordion';
 
 function App() {
-  const isMobile = window.innerWidth <= 375;
+  const accordionItems = [
+    { title: 'Accordion Item 1', content: 'Content for Accordion Item 1' },
+    { title: 'Accordion Item 2', content: 'Content for Accordion Item 2' },
+    { title: 'Accordion Item 3', content: 'Content for Accordion Item 3' },
+  ];
   return (
     <div className="App">
-      {/* {isMobile ? (
-        <img src={MobileBanner} alt="Mobile Image" />
-      ) : (
-        <img src={DesktopBanner} alt="Desktop Image" />
-      )} */}
       <img className='image' src="./assets/images/background-pattern-mobile.svg" alt='Image' />
+      <Accordion items={accordionItems} />
 
   FAQs
 
