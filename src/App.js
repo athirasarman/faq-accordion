@@ -10,7 +10,7 @@ function App() {
         "Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.",
     },
     {
-      title: " Is Frontend Mentor free?",
+      title: "Is Frontend Mentor free?",
       content:
         "Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.",
     },

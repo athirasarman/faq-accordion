@@ -1,11 +1,21 @@
-.accordion-header{
-    font-size: var(--font-size-paragraphs);
-    font-family: var(----font-family);
-    margin-top: 24px;
+.accordion-header {
+  font-size: var(--font-size-paragraphs);
+  font-family: var(----font-family);
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.title{
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    
+
+.title {
+  font-weight: 600;
+  margin-right: 16px;
+  text-align: left;
+}
+
+.accordion-content{
+    color: var(--grayish-purple);
+    font-weight: 400 ;
+    margin-top: 16px;
+    font-size: 14px;
 }

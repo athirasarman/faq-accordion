@@ -3,6 +3,8 @@
   flex-direction: column;
   background-color: var(--light-pink);
   height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .image {
@@ -19,6 +21,7 @@
   margin: 24px;
   padding: 24px;
   border-radius: 16px;
+  max-width: 500px;
 }
 
 .faq-heading{
