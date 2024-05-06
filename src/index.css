@@ -1,11 +1,12 @@
 @font-face {
   font-family: "Work Sans";
-  src: url("./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf");
+  src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf");
 }
 
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-family);
 }
 
