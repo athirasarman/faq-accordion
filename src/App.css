@@ -19,7 +19,7 @@
   flex-direction: column;
   background-color: var(--white);
   margin: -100px 24px 24px 24px;
-  padding: 24px;
+  padding: 24px 24px 32px 24px;
   border-radius: 16px;
   max-width: 500px;
 }

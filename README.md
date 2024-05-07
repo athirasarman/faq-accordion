@@ -22,7 +22,6 @@ This is a solution to the [FAQ Accordion challenge on Frontend Mentor](https://w
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 
 ## Author

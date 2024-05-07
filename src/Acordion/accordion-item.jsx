@@ -31,6 +31,7 @@ function AccordionItem({ key,title, content, isOpen, onToggle,buttonImage }) {
         </span>
       </div>
       {isOpen && <div className="accordion-content">{content}</div>}
+      <div className="divider"></div>
     </div>
   );
 }
