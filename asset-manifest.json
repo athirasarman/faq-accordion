@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/faq-accordion/static/css/main.0e0e2417.css",
-    "main.js": "/faq-accordion/static/js/main.7b26206b.js",
+    "main.js": "/faq-accordion/static/js/main.0704b442.js",
     "static/js/453.4940cf0d.chunk.js": "/faq-accordion/static/js/453.4940cf0d.chunk.js",
     "static/media/WorkSans-VariableFont_wght.ttf": "/faq-accordion/static/media/WorkSans-VariableFont_wght.a0297787a1a192213b53.ttf",
     "static/media/background-pattern-mobile.svg": "/faq-accordion/static/media/background-pattern-mobile.bbadbddabee663bba888.svg",
@@ -11,11 +11,11 @@
     "static/media/icon-plus.svg": "/faq-accordion/static/media/icon-plus.6c5381bcc9a768ea5c3683e11c6bfd6c.svg",
     "static/media/icon-minus.svg": "/faq-accordion/static/media/icon-minus.5575b6de09a1e0deab1dd585ada35f31.svg",
     "main.0e0e2417.css.map": "/faq-accordion/static/css/main.0e0e2417.css.map",
-    "main.7b26206b.js.map": "/faq-accordion/static/js/main.7b26206b.js.map",
+    "main.0704b442.js.map": "/faq-accordion/static/js/main.0704b442.js.map",
     "453.4940cf0d.chunk.js.map": "/faq-accordion/static/js/453.4940cf0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e0e2417.css",
-    "static/js/main.7b26206b.js"
+    "static/js/main.0704b442.js"
   ]
 }
