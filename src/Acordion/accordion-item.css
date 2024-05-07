@@ -6,6 +6,12 @@
   align-items: center;
   justify-content: space-between;
 }
+.accordion-header:hover{
+    cursor: pointer;
+}
+.accordion-header:active{
+ color: var(--purple);   
+}
 
 .title {
   font-weight: 600;
@@ -18,4 +24,7 @@
     font-weight: 400 ;
     margin-top: 16px;
     font-size: 14px;
+}
+
+.accordion-item{
 }
