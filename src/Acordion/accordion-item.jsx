@@ -1,25 +1,25 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./accordion-item.css";
 import IconMinus from "../assets/images/icon-minus.svg";
 import IconPlus from "../assets/images/icon-plus.svg";
 
-function AccordionItem({ title, content }) {
-  const [isOpen, setIsOpen] = useState(false);
+function AccordionItem({ key,title, content, isOpen, onToggle,buttonImage }) {
+  // const [isOpen, setIsOpen] = useState(false);
   // Define state to hold the image source
-  const [imageSrc, setImageSrc] = useState(IconMinus);
+  const [imageSrc, setImageSrc] = useState(buttonImage);
   // Function to change the image source
   const changeImage = () => {
     // Update the image source based on some condition or variable
     if (isOpen) {
-      setImageSrc(IconMinus);
-    } else {
       setImageSrc(IconPlus);
+    } else {
+      setImageSrc(IconMinus);
     }
   };
 
   const toggleAccordion = () => {
-    setIsOpen(!isOpen);
     changeImage();
+    onToggle();
   };
 
   return (
