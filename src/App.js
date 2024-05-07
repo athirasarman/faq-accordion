@@ -34,7 +34,7 @@ function App() {
       />
       <div className="accordion-container">
         <div className="faq-heading">
-          <img className="logo" src={logo} />
+          <img className="logo" src={logo} alt="heading-logo"/>
           FAQs
         </div>
 
